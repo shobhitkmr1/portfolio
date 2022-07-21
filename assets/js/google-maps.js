@@ -1,6 +1,6 @@
 function initMap() {
     // Latitude and Longitude
-    var myLatLng = {lat: -6.207690, lng: 106.985270};
+    var myLatLng = {lat: 28.670724045253454, lng: 77.43079366232121};
 
     var map = new google.maps.Map(document.getElementById('google-maps'), {
         zoom: 17,
@@ -10,6 +10,6 @@ function initMap() {
     var marker = new google.maps.Marker({
         position: myLatLng,
         map: map,
-        title: 'South Jakarta, INA' // Title Location
+        title: 'Ghaziabad, India' // Title Location
     });
 }
